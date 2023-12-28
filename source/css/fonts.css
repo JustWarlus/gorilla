@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'ConfidentialC';
+    src: local('ConfidentialC'), url("/fonts/ConfidentialC.woff2") format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DirtyHeadlineCyrillic';
+    src: local('DirtyHeadlineCyrillic'), url("/fonts/DirtyHeadlineCyrillic.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IntroHeadB-Base';
+    src: local('IntroHeadB-Base'), url("/fonts/IntroHeadB-Base.woff2") format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+    
