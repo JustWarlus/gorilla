@@ -398,15 +398,15 @@ header .hidden-menu .hidden-menu__inner .hidden-menu__content {
   width: 240px;
   min-height: 630px;
   height: 100%;
-  background: url("/img/navBg.png") repeat-y 0 0/100% auto;
-  background-image: -webkit-image-set(url("/img/navBg.webp"), url("/img/navBg.png")) repeat-y 0 0/100% auto;
-  background: image-set(url("/img/navBg.webp") type("image/webp"), url("/img/navBg.png") type("image/png")) repeat-y 0 0/100% auto;
+  background: url("../../img/navBg.png") repeat-y 0 0/100% auto;
+  background-image: -webkit-image-set(url("../../img/navBg.webp"), url("../../img/navBg.png")) repeat-y 0 0/100% auto;
+  background: image-set(url("../../img/navBg.webp") type("image/webp"), url("../../img/navBg.png") type("image/png")) repeat-y 0 0/100% auto;
   -webkit-mask-position: 0 0;
   mask-position: 0 0;
   -webkit-mask-size: 100%;
   mask-size: 100%;
-  -webkit-mask-image: url("/img/navBg.png");
-  mask-image: url("/img/navBg.png");
+  -webkit-mask-image: url("../../img/navBg.png");
+  mask-image: url("../../img/navBg.png");
   -webkit-mask-repeat: repeat-y;
   mask-repeat: repeat-y;
 }
@@ -503,9 +503,9 @@ header .header_menu .menu_link {
   }
 }
 header .header_menu .menu_link .hidden-header__menu-item {
-  background: url("/img/hoverLink.png");
-  background-image: -webkit-image-set(url("/img/hoverLink.webp"), url("/img/hoverLink.png"));
-  background: image-set(url("/img/hoverLink.webp") type("image/webp"), url("/img/hoverLink.png") type("image/png")) no-repeat;
+  background: url("../../img/hoverLink.png");
+  background-image: -webkit-image-set(url("../../img/hoverLink.webp"), url("../../img/hoverLink.png"));
+  background: image-set(url("../../img/hoverLink.webp") type("image/webp"), url("../../img/hoverLink.png") type("image/png")) no-repeat;
   background-size: contain;
   opacity: 0;
   z-index: -1;
@@ -525,7 +525,7 @@ main {
   position: relative;
 }
 main .hidden-header {
-  background: url("/img/fixed_menu.png") no-repeat 50%;
+  background: url("../../img/fixed_menu.png") no-repeat 50%;
   position: fixed;
   top: 0;
   left: 50%;
@@ -571,9 +571,9 @@ main .hidden-header .hidden-header_menu .menu_link {
 main .hidden-header .hidden-header_menu .menu_link .hidden-header__menu-item {
   content: "";
   position: absolute;
-  background: url("/img/hoverLink.png");
-  background-image: -webkit-image-set(url("/img/hoverLink.webp"), url("/img/hoverLink.png"));
-  background: image-set(url("/img/hoverLink.webp") type("image/webp"), url("/img/hoverLink.png") type("image/png")) no-repeat;
+  background: url("../../img/hoverLink.png");
+  background-image: -webkit-image-set(url("../../img/hoverLink.webp"), url("../../img/hoverLink.png"));
+  background: image-set(url("../../img/hoverLink.webp") type("image/webp"), url("../../img/hoverLink.png") type("image/png")) no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -626,9 +626,9 @@ main .video-wrapper {
 main .video-wrapper:before {
   content: "";
   position: absolute;
-  background: url("/img/headerOverlay.png");
-  background-image: -webkit-image-set(url("/img/headerOverlay.webp"), url("/img/headerOverlay.png"));
-  background: image-set(url("/img/headerOverlay.webp") type("image/webp"), url("/img/headerOverlay.png") type("image/png"));
+  background: url("../../img/headerOverlay.png");
+  background-image: -webkit-image-set(url("../../img/headerOverlay.webp"), url("../../img/headerOverlay.png"));
+  background: image-set(url("../../img/headerOverlay.webp") type("image/webp"), url("../../img/headerOverlay.png") type("image/png"));
   top: 0;
   left: 0;
   -webkit-background-size: cover;
@@ -683,7 +683,7 @@ main .video-wrapper .head_socials a::before {
   transition: opacity 0.2s ease-out, -webkit-transform 0.2s ease-out;
   transition: opacity 0.2s ease-out, transform 0.2s ease-out;
   transition: opacity 0.2s ease-out, transform 0.2s ease-out, -webkit-transform 0.2s ease-out;
-  background: url("/img/socialHover.png") no-repeat;
+  background: url("../../img/socialHover.png") no-repeat;
   pointer-events: none;
   z-index: -1;
 }
@@ -770,7 +770,7 @@ main .header_title .header__title-stroke-container {
 main .header_title .header__title-stroke-container .header__title-stroke {
   width: 100%;
   height: 100%;
-  background: url("/img/textBg.png") no-repeat;
+  background: url("../../img/textBg.png") no-repeat;
 }
 @media only screen and (max-width: 1024px) {
   main .header_title .header__title-stroke-container .header__title-stroke {
@@ -804,9 +804,9 @@ main .header_title .title_inner p {
   }
 }
 main .tastes {
-  background: url("/img/tastesBg.png") no-repeat 50%/120% 100%;
-  background-image: -webkit-image-set(url("/img/tastesBg.webp"), url("/img/tastesBg.png")) no-repeat 50%/120% 100%;
-  background: image-set(url("/img/tastesBg.webp") type("image/webp"), url("/img/tastesBg.png") type("image/png")) no-repeat 50%/120% 100%;
+  background: url("../../img/tastesBg.png") no-repeat 50%/120% 100%;
+  background-image: -webkit-image-set(url("../../img/tastesBg.webp"), url("../../img/tastesBg.png")) no-repeat 50%/120% 100%;
+  background: image-set(url("../../img/tastesBg.webp") type("image/webp"), url("../../img/tastesBg.png") type("image/png")) no-repeat 50%/120% 100%;
   -webkit-background-size: 100% 100%;
   -moz-background-size: 100% 100%;
   -o-background-size: 100% 100%;
@@ -814,16 +814,16 @@ main .tastes {
 }
 @media only screen and (max-width: 1024px) {
   main .tastes {
-    background: url("/img/tastesBg.png") no-repeat;
-    background-image: -webkit-image-set(url("/img/tastesBg.webp"), url("/img/tastesBg.png")) no-repeat;
-    background: image-set(url("/img/tastesBg.webp") type("image/webp"), url("/img/tastesBg.png") type("image/png")) no-repeat;
+    background: url("../../img/tastesBg.png") no-repeat;
+    background-image: -webkit-image-set(url("../../img/tastesBg.webp"), url("../../img/tastesBg.png")) no-repeat;
+    background: image-set(url("../../img/tastesBg.webp") type("image/webp"), url("../../img/tastesBg.png") type("image/png")) no-repeat;
   }
 }
 @media only screen and (max-width: 420px) {
   main .tastes {
-    background: url("/img/tastesMobile.png") no-repeat;
-    background-image: -webkit-image-set(url("/img/tastesMobile.webp"), url("/img/tastesMobile.png")) no-repeat;
-    background: image-set(url("/img/tastesMobile.webp") type("image/webp"), url("/img/tastesMobile.png") type("image/png")) no-repeat;
+    background: url("../../img/tastesMobile.png") no-repeat;
+    background-image: -webkit-image-set(url("../../img/tastesMobile.webp"), url("../../img/tastesMobile.png")) no-repeat;
+    background: image-set(url("../../img/tastesMobile.webp") type("image/webp"), url("../../img/tastesMobile.png") type("image/png")) no-repeat;
   }
 }
 main #tastes {
@@ -901,7 +901,7 @@ main #tastes .container .tastes_title .tastes-title-content .tastes_pseudo {
   left: 0;
   width: 100%;
   height: 48px;
-  background: url("/img/titleBg.png");
+  background: url("../../img/titleBg.png");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -970,7 +970,7 @@ main #tastes .container .tastes_list .tastes__list-item-wrapper {
   -webkit-animation-duration: 0.5s;
 }
 main #tastes .container .tastes_list .tastes__list-item-wrapper::before {
-  background: url("/img/productHover.png") no-repeat;
+  background: url("../../img/productHover.png") no-repeat;
   position: absolute;
   left: -25px;
   top: -50px;
@@ -1008,7 +1008,7 @@ main #tastes .container .tastes_list .tastes__list-item-wrapper .tastes__list-it
   cursor: pointer;
 }
 main #tastes .container .tastes_list .tastes__list-item-wrapper .tastes_original {
-  background: url("/img/products/1.png") no-repeat top;
+  background: url("../../img/products/1.png") no-repeat top;
 }
 main #tastes .container .tastes_list .tastes__list-item-wrapper .tastes_original:hover {
   color: #92d400;
@@ -1017,7 +1017,7 @@ main #tastes .container .tastes_list .tastes__list-item-wrapper .tastes_original
   color: #92d400;
 }
 main #tastes .container .tastes_list .tastes__list-item-wrapper .tastes_mango {
-  background: url("/img/products/4.png") no-repeat top;
+  background: url("../../img/products/4.png") no-repeat top;
 }
 main #tastes .container .tastes_list .tastes__list-item-wrapper .tastes_mango:hover {
   color: #f5b01d;
@@ -1026,7 +1026,7 @@ main #tastes .container .tastes_list .tastes__list-item-wrapper .tastes_mango.ac
   color: #f5b01d;
 }
 main #tastes .container .tastes_list .tastes__list-item-wrapper .tastes_extra {
-  background: url("/img/products/6.png") no-repeat top;
+  background: url("../../img/products/6.png") no-repeat top;
 }
 main #tastes .container .tastes_list .tastes__list-item-wrapper .tastes_extra:hover {
   color: #8d745a;
@@ -1035,7 +1035,7 @@ main #tastes .container .tastes_list .tastes__list-item-wrapper .tastes_extra.ac
   color: #8d745a;
 }
 main #tastes .container .tastes_list .tastes__list-item-wrapper .tastes_lychee {
-  background: url("/img/products/3.png") no-repeat top;
+  background: url("../../img/products/3.png") no-repeat top;
 }
 main #tastes .container .tastes_list .tastes__list-item-wrapper .tastes_lychee:hover {
   color: #ff3e6f;
@@ -1044,7 +1044,7 @@ main #tastes .container .tastes_list .tastes__list-item-wrapper .tastes_lychee.a
   color: #ff3e6f;
 }
 main #tastes .container .tastes_list .tastes__list-item-wrapper .tastes_orange {
-  background: url("/img/products/2.png") no-repeat top;
+  background: url("../../img/products/2.png") no-repeat top;
 }
 main #tastes .container .tastes_list .tastes__list-item-wrapper .tastes_orange:hover {
   color: #ff9c28;
@@ -1053,7 +1053,7 @@ main #tastes .container .tastes_list .tastes__list-item-wrapper .tastes_orange.a
   color: #ff9c28;
 }
 main #tastes .container .tastes_list .tastes__list-item-wrapper .tastes_peach {
-  background: url("/img/products/5.png") no-repeat top;
+  background: url("../../img/products/5.png") no-repeat top;
 }
 main #tastes .container .tastes_list .tastes__list-item-wrapper .tastes_peach:hover {
   color: #AC72D1;
@@ -1062,7 +1062,7 @@ main #tastes .container .tastes_list .tastes__list-item-wrapper .tastes_peach.ac
   color: #AC72D1;
 }
 main #tastes .container .tastes_list .tastes__list-item-wrapper .tastes_pineapple {
-  background: url("/img/products/7.png") no-repeat top;
+  background: url("../../img/products/7.png") no-repeat top;
 }
 
 main #tastes .container .tastes_list .tastes__list-item-wrapper .tastes_pineapple:hover {
@@ -1166,7 +1166,7 @@ main #tastes .container .tastes__choosen .taste__choosen-info .taste__choosen-in
   position: absolute;
   width: 85%;
   height: 2px;
-  background: url("/img/underline.png") repeat-x 50%;
+  background: url("../../img/underline.png") repeat-x 50%;
   left: 0;
   bottom: -1px;
 }
@@ -1198,7 +1198,7 @@ main #tastes .container .tastes__choosen .taste__choosen-info .taste__choosen-in
   font-family: "ConfidentialC", sans-serif;
   line-height: 130%;
   text-transform: uppercase;
-  background: url(/img/tastesInfoSpot.png) no-repeat 50px 82%/80% 90%;
+  background: url(../../img/tastesInfoSpot.png) no-repeat 50px 82%/80% 90%;
   width: 100%;
   min-height: 87px;
   -webkit-box-sizing: border-box;
@@ -1206,44 +1206,44 @@ main #tastes .container .tastes__choosen .taste__choosen-info .taste__choosen-in
   padding: 40px 30px 40px 65px;
 }
 main #tastes .container .tastes__choosen .taste__choosen-info .taste__choosen-info-content_original {
-  background: url("/img/products/1Bg.png") 0px 0px/95% 100% no-repeat scroll;
+  background: url("../../img/products/1Bg.png") 0px 0px/95% 100% no-repeat scroll;
   display: flex;
   display: -webkit-box;
   display: -ms-flexbox;
 }
 main #tastes .container .tastes__choosen .taste__choosen-info .taste__choosen-info-content_mango {
-  background: url("/img/products/2Bg.png") 0px 0px/95% 100% no-repeat scroll;
+  background: url("../../img/products/2Bg.png") 0px 0px/95% 100% no-repeat scroll;
   display: flex;
   display: -webkit-box;
   display: -ms-flexbox;
 }
 main #tastes .container .tastes__choosen .taste__choosen-info .taste__choosen-info-content_extra {
-  background: url("/img/products/3Bg.png") 0px 0px/95% 100% no-repeat scroll;
+  background: url("../../img/products/3Bg.png") 0px 0px/95% 100% no-repeat scroll;
   display: flex;
   display: -webkit-box;
   display: -ms-flexbox;
 }
 main #tastes .container .tastes__choosen .taste__choosen-info .taste__choosen-info-content_lychee {
-  background: url("/img/products/4Bg.png") 0px 0px/95% 100% no-repeat scroll;
+  background: url("../../img/products/4Bg.png") 0px 0px/95% 100% no-repeat scroll;
   display: flex;
   display: -webkit-box;
   display: -ms-flexbox;
 }
 main #tastes .container .tastes__choosen .taste__choosen-info .taste__choosen-info-content_orange {
-  background: url("/img/products/5Bg.png") 0px 0px/95% 100% no-repeat scroll;
+  background: url("../../img/products/5Bg.png") 0px 0px/95% 100% no-repeat scroll;
   display: flex;
   display: -webkit-box;
   display: -ms-flexbox;
 }
 main #tastes .container .tastes__choosen .taste__choosen-info .taste__choosen-info-content_peach {
-  background: url("/img/products/6Bg.png") 0px 0px/95% 100% no-repeat scroll;
+  background: url("../../img/products/6Bg.png") 0px 0px/95% 100% no-repeat scroll;
   display: flex;
   display: -webkit-box;
   display: -ms-flexbox;
 }
 
 main #tastes .container .tastes__choosen .taste__choosen-info .taste__choosen-info-content_pineapple {
-  background: url("/img/products/7Bg.png") 0px 0px/95% 100% no-repeat scroll;
+  background: url("../../img/products/7Bg.png") 0px 0px/95% 100% no-repeat scroll;
   display: flex;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1311,7 +1311,7 @@ main #tastes .container .swiper .original h3 {
   color: #92D400;
 }
 main #tastes .container .swiper .original .products__slider-item-more {
-  background: url("/img/products/slider/btn1.png") no-repeat;
+  background: url("../../img/products/slider/btn1.png") no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1321,7 +1321,7 @@ main #tastes .container .swiper .mango h3 {
   color: #FD8A00;
 }
 main #tastes .container .swiper .mango .products__slider-item-more {
-  background: url("/img/products/slider/btn5.png") no-repeat;
+  background: url("../../img/products/slider/btn5.png") no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1332,7 +1332,7 @@ main #tastes .container .swiper .peach h3 {
 }
 
 main #tastes .container .swiper .peach .products__slider-item-more {
-  background: url("/img/products/slider/btn6.png") no-repeat;
+  background: url("../../img/products/slider/btn6.png") no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1342,7 +1342,7 @@ main #tastes .container .swiper .pineapple h3 {
   color: #00A8A9;
 }
 main #tastes .container .swiper .pineapple .products__slider-item-more {
-  background: url("/img/products/slider/btn7.png") no-repeat;
+  background: url("../../img/products/slider/btn7.png") no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1352,7 +1352,7 @@ main #tastes .container .swiper .extra h3 {
   color: #B28756;
 }
 main #tastes .container .swiper .extra .products__slider-item-more {
-  background: url("/img/products/slider/btn3.png") no-repeat;
+  background: url("../../img/products/slider/btn3.png") no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1362,7 +1362,7 @@ main #tastes .container .swiper .lychee h3 {
   color: #F265A2;
 }
 main #tastes .container .swiper .lychee .products__slider-item-more {
-  background: url("/img/products/slider/btn4.png") no-repeat;
+  background: url("../../img/products/slider/btn4.png") no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1372,7 +1372,7 @@ main #tastes .container .swiper .orange h3 {
   color: #FF9B26;
 }
 main #tastes .container .swiper .orange .products__slider-item-more {
-  background: url("/img/products/slider/btn2.png") no-repeat;
+  background: url("../../img/products/slider/btn2.png") no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1479,9 +1479,9 @@ main #tastes .video-inner::before {
 }
 main #tastes .tastes_original .video-inner::before,
 main #tastes .swiper-slide .original .video-inner::before {
-  background: url("/img/products/border1.png");
-  background-image: -webkit-image-set(url("/img/products/border1.webp"), url("/img/products/border1.png"));
-  background: image-set(url("/img/products/border1.webp") type("image/webp"), url("/img/products/border1.png") type("image/png"));
+  background: url("../../img/products/border1.png");
+  background-image: -webkit-image-set(url("../../img/products/border1.webp"), url("../../img/products/border1.png"));
+  background: image-set(url("../../img/products/border1.webp") type("image/webp"), url("../../img/products/border1.png") type("image/png"));
   background-repeat: no-repeat;
 }
 @media only screen and (max-width: 1024px) {
@@ -1493,17 +1493,17 @@ main #tastes .swiper-slide .original .video-inner::before {
 @media only screen and (max-width: 420px) {
   main #tastes .tastes_original .video-inner::before,
   main #tastes .swiper-slide .original .video-inner::before {
-    background: url("/img/products/border1Mobile.png");
-    background-image: -webkit-image-set(url("/img/products/border1Mobile.webp"), url("/img/products/border1Mobile.png"));
-    background: image-set(url("/img/products/border1Mobile.webp") type("image/webp"), url("/img/products/border1Mobile.png") type("image/png"));
+    background: url("../../img/products/border1Mobile.png");
+    background-image: -webkit-image-set(url("../../img/products/border1Mobile.webp"), url("../../img/products/border1Mobile.png"));
+    background: image-set(url("../../img/products/border1Mobile.webp") type("image/webp"), url("../../img/products/border1Mobile.png") type("image/png"));
     background-size: contain;
   }
 }
 main #tastes .tastes_mango .video-inner::before,
 main #tastes .swiper-slide .mango .video-inner::before {
-  background: url("/img/products/border2.png");
-  background-image: -webkit-image-set(url("/img/products/border2.webp"), url("/img/products/border2.png"));
-  background: image-set(url("/img/products/border2.webp") type("image/webp"), url("/img/products/border2.png") type("image/png"));
+  background: url("../../img/products/border2.png");
+  background-image: -webkit-image-set(url("../../img/products/border2.webp"), url("../../img/products/border2.png"));
+  background: image-set(url("../../img/products/border2.webp") type("image/webp"), url("../../img/products/border2.png") type("image/png"));
   background-repeat: no-repeat;
 }
 @media only screen and (max-width: 1024px) {
@@ -1515,17 +1515,17 @@ main #tastes .swiper-slide .mango .video-inner::before {
 @media only screen and (max-width: 420px) {
   main #tastes .tastes_mango .video-inner::before,
   main #tastes .swiper-slide .mango .video-inner::before {
-    background: url("/img/products/border2Mobile.png");
-    background-image: -webkit-image-set(url("/img/products/border2Mobile.webp"), url("/img/products/border2Mobile.png"));
-    background: image-set(url("/img/products/border2Mobile.webp") type("image/webp"), url("/img/products/border2Mobile.png") type("image/png"));
+    background: url("../../img/products/border2Mobile.png");
+    background-image: -webkit-image-set(url("../../img/products/border2Mobile.webp"), url("../../img/products/border2Mobile.png"));
+    background: image-set(url("../../img/products/border2Mobile.webp") type("image/webp"), url("../../img/products/border2Mobile.png") type("image/png"));
     background-size: contain;
   }
 }
 main #tastes .tastes_extra .video-inner::before,
 main #tastes .swiper-slide .extra .video-inner::before {
-  background: url("/img/products/border3.png");
-  background-image: -webkit-image-set(url("/img/products/border3.webp"), url("/img/products/border3.png"));
-  background: image-set(url("/img/products/border3.webp") type("image/webp"), url("/img/products/border3.png") type("image/png"));
+  background: url("../../img/products/border3.png");
+  background-image: -webkit-image-set(url("../../img/products/border3.webp"), url("../../img/products/border3.png"));
+  background: image-set(url("../../img/products/border3.webp") type("image/webp"), url("../../img/products/border3.png") type("image/png"));
   background-repeat: no-repeat;
 }
 @media only screen and (max-width: 1024px) {
@@ -1537,17 +1537,17 @@ main #tastes .swiper-slide .extra .video-inner::before {
 @media only screen and (max-width: 420px) {
   main #tastes .tastes_extra .video-inner::before,
   main #tastes .swiper-slide .extra .video-inner::before {
-    background: url("/img/products/border3Mobile.png");
-    background-image: -webkit-image-set(url("/img/products/border3Mobile.webp"), url("/img/products/border3Mobile.png"));
-    background: image-set(url("/img/products/border3Mobile.webp") type("image/webp"), url("/img/products/border3Mobile.png") type("image/png"));
+    background: url("../../img/products/border3Mobile.png");
+    background-image: -webkit-image-set(url("../../img/products/border3Mobile.webp"), url("../../img/products/border3Mobile.png"));
+    background: image-set(url("../../img/products/border3Mobile.webp") type("image/webp"), url("../../img/products/border3Mobile.png") type("image/png"));
     background-size: contain;
   }
 }
 main #tastes .tastes_lychee .video-inner::before,
 main #tastes .swiper-slide .lychee .video-inner::before {
-  background: url("/img/products/border4.png");
-  background-image: -webkit-image-set(url("/img/products/border4.webp"), url("/img/products/border4.png"));
-  background: image-set(url("/img/products/border4.webp") type("image/webp"), url("/img/products/border4.png") type("image/png"));
+  background: url("../../img/products/border4.png");
+  background-image: -webkit-image-set(url("../../img/products/border4.webp"), url("../../img/products/border4.png"));
+  background: image-set(url("../../img/products/border4.webp") type("image/webp"), url("../../img/products/border4.png") type("image/png"));
   background-repeat: no-repeat;
 }
 @media only screen and (max-width: 1024px) {
@@ -1559,17 +1559,17 @@ main #tastes .swiper-slide .lychee .video-inner::before {
 @media only screen and (max-width: 420px) {
   main #tastes .tastes_lychee .video-inner::before,
   main #tastes .swiper-slide .lychee .video-inner::before {
-    background: url("/img/products/border4Mobile.png");
-    background-image: -webkit-image-set(url("/img/products/border4Mobile.webp"), url("/img/products/border4Mobile.png"));
-    background: image-set(url("/img/products/border4Mobile.webp") type("image/webp"), url("/img/products/border4Mobile.png") type("image/png"));
+    background: url("../../img/products/border4Mobile.png");
+    background-image: -webkit-image-set(url("../../img/products/border4Mobile.webp"), url("../../img/products/border4Mobile.png"));
+    background: image-set(url("../../img/products/border4Mobile.webp") type("image/webp"), url("../../img/products/border4Mobile.png") type("image/png"));
     background-size: contain;
   }
 }
 main #tastes .tastes_orange .video-inner::before,
 main #tastes .swiper-slide .orange .video-inner::before {
-  background: url("/img/products/border5.png");
-  background-image: -webkit-image-set(url("/img/products/border5.webp"), url("/img/products/border5.png"));
-  background: image-set(url("/img/products/border5.webp") type("image/webp"), url("/img/products/border5.png") type("image/png"));
+  background: url("../../img/products/border5.png");
+  background-image: -webkit-image-set(url("../../img/products/border5.webp"), url("../../img/products/border5.png"));
+  background: image-set(url("../../img/products/border5.webp") type("image/webp"), url("../../img/products/border5.png") type("image/png"));
   background-repeat: no-repeat;
 }
 @media only screen and (max-width: 1024px) {
@@ -1581,17 +1581,17 @@ main #tastes .swiper-slide .orange .video-inner::before {
 @media only screen and (max-width: 420px) {
   main #tastes .tastes_orange .video-inner::before,
   main #tastes .swiper-slide .orange .video-inner::before {
-    background: url("/img/products/border5Mobile.png");
-    background-image: -webkit-image-set(url("/img/products/border5Mobile.webp"), url("/img/products/border5Mobile.png"));
-    background: image-set(url("/img/products/border5Mobile.webp") type("image/webp"), url("/img/products/border5Mobile.png") type("image/png"));
+    background: url("../../img/products/border5Mobile.png");
+    background-image: -webkit-image-set(url("../../img/products/border5Mobile.webp"), url("../../img/products/border5Mobile.png"));
+    background: image-set(url("../../img/products/border5Mobile.webp") type("image/webp"), url("../../img/products/border5Mobile.png") type("image/png"));
     background-size: contain;
   }
 }
 main #tastes .tastes_peach .video-inner::before,
 main #tastes .swiper-slide .peach .video-inner::before {
-  background: url("/img/products/border6.png");
-  background-image: -webkit-image-set(url("/img/products/border6.webp"), url("/img/products/border6.png"));
-  background: image-set(url("/img/products/border6.webp") type("image/webp"), url("/img/products/border6.png") type("image/png"));
+  background: url("../../img/products/border6.png");
+  background-image: -webkit-image-set(url("../../img/products/border6.webp"), url("../../img/products/border6.png"));
+  background: image-set(url("../../img/products/border6.webp") type("image/webp"), url("../../img/products/border6.png") type("image/png"));
   background-repeat: no-repeat;
 }
 
@@ -1604,18 +1604,18 @@ main #tastes .swiper-slide .peach .video-inner::before {
 @media only screen and (max-width: 420px) {
   main #tastes .tastes_peach .video-inner::before,
   main #tastes .swiper-slide .peach .video-inner::before {
-    background: url("/img/products/border6Mobile.png");
-    background-image: -webkit-image-set(url("/img/products/border6Mobile.webp"), url("/img/products/border6Mobile.png"));
-    background: image-set(url("/img/products/border6Mobile.webp") type("image/webp"), url("/img/products/border6Mobile.png") type("image/png"));
+    background: url("../../img/products/border6Mobile.png");
+    background-image: -webkit-image-set(url("../../img/products/border6Mobile.webp"), url("../../img/products/border6Mobile.png"));
+    background: image-set(url("../../img/products/border6Mobile.webp") type("image/webp"), url("../../img/products/border6Mobile.png") type("image/png"));
     background-size: contain;
   }
 }
 /* pinapple */
 main #tastes .tastes_pineapple .video-inner::before,
 main #tastes .swiper-slide .pineapple .video-inner::before {
-  background: url("/img/products/border7.png");
-  background-image: -webkit-image-set(url("/img/products/border7.webp"), url("/img/products/border7.png"));
-  background: image-set(url("/img/products/border7.webp") type("image/webp"), url("/img/products/border7.png") type("image/png"));
+  background: url("../../img/products/border7.png");
+  background-image: -webkit-image-set(url("../../img/products/border7.webp"), url("../../img/products/border7.png"));
+  background: image-set(url("../../img/products/border7.webp") type("image/webp"), url("../../img/products/border7.png") type("image/png"));
   background-repeat: no-repeat;
 }
 @media only screen and (max-width: 1024px) {
@@ -1629,9 +1629,9 @@ main #tastes .swiper-slide .pineapple .video-inner::before {
 
   main #tastes .tastes_pineapple .video-inner::before,
   main #tastes .swiper-slide .pineapple .video-inner::before {
-    background: url("/img/products/border7Mobile.png");
-    background-image: -webkit-image-set(url("/img/products/border7Mobile.webp"), url("/img/products/border7Mobile.png"));
-    background: image-set(url("/img/products/border7Mobile.webp") type("image/webp"), url("/img/products/border7Mobile.png") type("image/png"));
+    background: url("../../img/products/border7Mobile.png");
+    background-image: -webkit-image-set(url("../../img/products/border7Mobile.webp"), url("../../img/products/border7Mobile.png"));
+    background: image-set(url("../../img/products/border7Mobile.webp") type("image/webp"), url("../../img/products/border7Mobile.png") type("image/png"));
     background-size: contain;
   }
 }
@@ -1639,7 +1639,7 @@ main #tastes .swiper-slide .pineapple .video-inner::before {
 /* pinapple */
 
 main .socials {
-  background: url("/img/socials/bg.png") no-repeat scroll 49.999% 0;
+  background: url("../../img/socials/bg.png") no-repeat scroll 49.999% 0;
   -webkit-background-size: 100% 100%;
   -moz-background-size: 100% 100%;
   -o-background-size: 100% 100%;
@@ -1669,9 +1669,9 @@ main .socials {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background: url("/img/socials/bg.png") no-repeat scroll 25% 0;
-    background-image: -webkit-image-set(url("/img/socials/bg.webp"), url("/img/socials/bg.png")) no-repeat scroll 25% 0;
-    background: image-set(url("/img/socials/bg.webp") type("image/webp"), url("/img/socials/bg.png") type("image/png")) no-repeat scroll 25% 0;
+    background: url("../../img/socials/bg.png") no-repeat scroll 25% 0;
+    background-image: -webkit-image-set(url("../../img/socials/bg.webp"), url("../../img/socials/bg.png")) no-repeat scroll 25% 0;
+    background: image-set(url("../../img/socials/bg.webp") type("image/webp"), url("../../img/socials/bg.png") type("image/png")) no-repeat scroll 25% 0;
   }
 }
 @media only screen and (max-width: 500px) {
@@ -1683,9 +1683,9 @@ main .socials {
   main .socials {
     height: 1020px;
     margin-top: -140px;
-    background: url("/img/socials/bgMobile.png") no-repeat scroll 25% 0;
-    background-image: -webkit-image-set(url("/img/socials/bgMobile.webp"), url("/img/socials/bgMobile.png")) no-repeat scroll 25% 0;
-    background: image-set(url("/img/socials/bgMobile.webp") type("image/webp"), url("/img/socials/bgMobile.png") type("image/png")) no-repeat scroll 25% 0;
+    background: url("../../img/socials/bgMobile.png") no-repeat scroll 25% 0;
+    background-image: -webkit-image-set(url("../../img/socials/bgMobile.webp"), url("../../img/socials/bgMobile.png")) no-repeat scroll 25% 0;
+    background: image-set(url("../../img/socials/bgMobile.webp") type("image/webp"), url("../../img/socials/bgMobile.png") type("image/png")) no-repeat scroll 25% 0;
   }
 }
 main .socials .socials_bg {
@@ -1702,7 +1702,7 @@ main .socials .socials_bg .socials_bg-splatter-1 {
   bottom: 210px;
   right: 0px;
   left: 0px;
-  background: url("/img/socials/splatter1.png") no-repeat scroll 0 0;
+  background: url("../../img/socials/splatter1.png") no-repeat scroll 0 0;
   background-size: contain;
   -webkit-animation: moveHorizontal 20s forwards infinite;
   animation: moveHorizontal 20s forwards infinite;
@@ -1718,7 +1718,7 @@ main .socials .socials_bg .socials_bg-splatter-1 {
   }
 }
 main .socials .socials_bg .socials_bg-splatter-2 {
-  background: url("/img/socials/splatter2.png") no-repeat scroll 0 0;
+  background: url("../../img/socials/splatter2.png") no-repeat scroll 0 0;
   width: 100%;
   height: 788px;
   position: absolute;
@@ -1835,7 +1835,7 @@ main .socials .container .socials__list .social-card .social-card__icon {
   transition: background-color 0.2s;
 }
 main .socials .container .socials__list .social-card .social-card__icon_instagram {
-  background: url("/img/socials/instIcon.png") no-repeat scroll 100% 100%;
+  background: url("../../img/socials/instIcon.png") no-repeat scroll 100% 100%;
 }
 main .socials .container .socials__list .social-card:hover .social-card__icon {
   background-color: rgba(0, 0, 0, 0.2);
@@ -1877,9 +1877,9 @@ main .contacts {
   position: relative;
   margin-top: -170px;
   pointer-events: none;
-  background: url(/img/contacts/bg.png) no-repeat 0;
-  background-image: -webkit-image-set(url("/img/contacts/bg.webp"), url("/img/contacts/bg.png")) no-repeat 0;
-  background: image-set(url("/img/contacts/bg.webp") type("image/webp"), url("/img/contacts/bg.png") type("image/png")) no-repeat 0;
+  background: url(../../img/contacts/bg.png) no-repeat 0;
+  background-image: -webkit-image-set(url("../../img/contacts/bg.webp"), url("../../img/contacts/bg.png")) no-repeat 0;
+  background: image-set(url("../../img/contacts/bg.webp") type("image/webp"), url("../../img/contacts/bg.png") type("image/png")) no-repeat 0;
   -webkit-background-size: 100% 100%;
   -moz-background-size: 100% 100%;
   -o-background-size: 100% 100%;
@@ -1893,9 +1893,9 @@ main .contacts {
 @media only screen and (max-width: 1024px) {
   main .contacts {
     height: 500px;
-    background: url(/img/contacts/bg.png) repeat-y 49.999% 0;
-    background-image: -webkit-image-set(url("/img/contacts/bg.webp"), url("/img/contacts/bg.png")) repeat-y 49.999% 0;
-    background: image-set(url("/img/contacts/bg.webp") type("image/webp"), url("/img/contacts/bg.png") type("image/png")) repeat-y 49.999% 0;
+    background: url(../../img/contacts/bg.png) repeat-y 49.999% 0;
+    background-image: -webkit-image-set(url("../../img/contacts/bg.webp"), url("../../img/contacts/bg.png")) repeat-y 49.999% 0;
+    background: image-set(url("../../img/contacts/bg.webp") type("image/webp"), url("../../img/contacts/bg.png") type("image/png")) repeat-y 49.999% 0;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1904,9 +1904,9 @@ main .contacts {
 }
 @media only screen and (max-width: 420px) {
   main .contacts {
-    background: url("/img/contacts/bgMobile.png") repeat-y 49.999% 0;
-    background-image: -webkit-image-set(url("/img/contacts/bgMobile.webp"), url("/img/contacts/bgMobile.png")) repeat-y 49.999% 0;
-    background: image-set(url("/img/contacts/bgMobile.webp") type("image/webp"), url("/img/contacts/bgMobile.png") type("image/png")) repeat-y 49.999% 0;
+    background: url("../../img/contacts/bgMobile.png") repeat-y 49.999% 0;
+    background-image: -webkit-image-set(url("../../img/contacts/bgMobile.webp"), url("../../img/contacts/bgMobile.png")) repeat-y 49.999% 0;
+    background: image-set(url("../../img/contacts/bgMobile.webp") type("image/webp"), url("../../img/contacts/bgMobile.png") type("image/png")) repeat-y 49.999% 0;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -2000,7 +2000,7 @@ main .contacts .container .contacts__content .contacts__content-link:hover {
   opacity: 0.7;
 }
 main .pseudo-image {
-  background: url(/img/pseudo.png) no-repeat scroll top;
+  background: url(../../img/pseudo.png) no-repeat scroll top;
   z-index: 2;
   position: absolute;
   bottom: 35px;
@@ -2093,7 +2093,7 @@ main .pseudo-image {
   transition: opacity 0.2s ease-out, -webkit-transform 0.2s ease-out;
   transition: opacity 0.2s ease-out, transform 0.2s ease-out;
   transition: opacity 0.2s ease-out, transform 0.2s ease-out, -webkit-transform 0.2s ease-out;
-  background: url("/img/socialHover.png") no-repeat;
+  background: url("../../img/socialHover.png") no-repeat;
   pointer-events: none;
   z-index: -1;
 }
@@ -2152,7 +2152,7 @@ main .pseudo-image {
   position: absolute;
   width: 85%;
   height: 2px;
-  background: url("/img/underline.png") repeat-x 50%;
+  background: url("../../img/underline.png") repeat-x 50%;
   left: 0;
   bottom: -1px;
 }
@@ -2182,7 +2182,7 @@ main .pseudo-image {
   font-family: "ConfidentialC", sans-serif;
   line-height: 130%;
   text-transform: uppercase;
-  background: url(/img/tastesInfoSpot.png) no-repeat 50px 82%/80% 90%;
+  background: url(../../img/tastesInfoSpot.png) no-repeat 50px 82%/80% 90%;
   width: 100%;
   min-height: 87px;
   -webkit-box-sizing: border-box;
@@ -2326,7 +2326,7 @@ main .pseudo-image {
 }
 .modal .modal__body .taste__choosen-info-list {
   padding: 40px 30px 40px 45px;
-  background: url(/img/tastesInfoSpot.png) no-repeat 35px 82%/80% 90%;
+  background: url(../../img/tastesInfoSpot.png) no-repeat 35px 82%/80% 90%;
 }
 .modal .modal__body .modal-close {
   position: absolute;
@@ -2343,7 +2343,7 @@ main .pseudo-image {
 }
 
 .modal.flavor-original .modal__body {
-  background: url(/img/products/1Bg.png) no-repeat 0 0/100% 100%;
+  background: url(../../img/products/1Bg.png) no-repeat 0 0/100% 100%;
 }
 .modal.flavor-original .modal__body .taste__choosen-info-content_original {
   display: block;
@@ -2358,7 +2358,7 @@ main .pseudo-image {
 }
 
 .modal.flavor-mango .modal__body {
-  background: url(/img/products/2Bg.png) no-repeat 0 0/100% 100%;
+  background: url(../../img/products/2Bg.png) no-repeat 0 0/100% 100%;
 }
 .modal.flavor-mango .modal__body .taste__choosen-info-content_mango {
   display: block;
@@ -2373,7 +2373,7 @@ main .pseudo-image {
 }
 
 .modal.flavor-extra .modal__body {
-  background: url(/img/products/3Bg.png) no-repeat 0 0/100% 100%;
+  background: url(../../img/products/3Bg.png) no-repeat 0 0/100% 100%;
 }
 .modal.flavor-extra .modal__body .taste__choosen-info-content_extra {
   display: block;
@@ -2388,7 +2388,7 @@ main .pseudo-image {
 }
 
 .modal.flavor-lychee .modal__body {
-  background: url(/img/products/4Bg.png) no-repeat 0 0/100% 100%;
+  background: url(../../img/products/4Bg.png) no-repeat 0 0/100% 100%;
 }
 .modal.flavor-lychee .modal__body .taste__choosen-info-content_lychee {
   display: block;
@@ -2403,7 +2403,7 @@ main .pseudo-image {
 }
 
 .modal.flavor-orange .modal__body {
-  background: url(/img/products/5Bg.png) no-repeat 0 0/100% 100%;
+  background: url(../../img/products/5Bg.png) no-repeat 0 0/100% 100%;
 }
 .modal.flavor-orange .modal__body .taste__choosen-info-content_orange {
   display: block;
@@ -2418,7 +2418,7 @@ main .pseudo-image {
 }
 
 .modal.flavor-peach .modal__body {
-  background: url(/img/products/6Bg.png) no-repeat 0 0/100% 100%;
+  background: url(../../img/products/6Bg.png) no-repeat 0 0/100% 100%;
 }
 .modal.flavor-peach .modal__body .taste__choosen-info-content_peach {
   display: block;
@@ -2432,7 +2432,7 @@ main .pseudo-image {
   display: none;
 }
 .modal.flavor-pineapple .modal__body {
-  background: url(/img/products/7Bg.png) no-repeat 0 0/100% 100%;
+  background: url(../../img/products/7Bg.png) no-repeat 0 0/100% 100%;
 }
 .modal.flavor-pineapple .modal__body .taste__choosen-info-content_pineapple {
   display: block;
